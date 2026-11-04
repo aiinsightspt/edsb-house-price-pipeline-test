@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 
-FEATURES = ["size_m2", "rooms", "age_years"]
+FEATURES = ["rooms", "age_years"]
 TARGET = "price_k_eur"
 
 # 1 · Read the data and keep 20% of the houses aside for the test.
